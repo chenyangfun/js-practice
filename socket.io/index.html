@@ -1,0 +1,10 @@
+<script src="https://cdn.bootcss.com/socket.io/2.0.4/socket.io.js"></script>
+<script>
+  var socket = io('http://localhost:19003/systemInfo');
+  console.log(socket)
+  socket.on('systemStatus', function (data) {
+    console.log(data);
+  });
+  socket.emit('systemStatus', { my: 'data' });
+
+</script>
