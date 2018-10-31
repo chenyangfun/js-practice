@@ -1,4 +1,4 @@
-//readFileSync是真正的同步，他死阻塞的
+//readFileSync是真正的同步，他是阻塞的
 fs = require("fs");
 // var file
 // fs.readFile('./README.md', 'utf8', (err, data) => {
