@@ -25,7 +25,7 @@
 // console.log(f(false, 0)); // returns 0
 // console.log(f(true, 0)); // returns 100
 
-//3
+//3 if 后面是一个表达式（）expression不是语句 statement
 a = function f() {
 
 }
